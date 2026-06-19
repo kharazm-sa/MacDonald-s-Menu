@@ -1,0 +1,1072 @@
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+a {
+    background-color: transparent;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+img {
+    border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0; /* 3 */
+    white-space: normal;
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+details {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
+
+template {
+    display: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+html{
+    /* --- /Grid\ --- */
+
+        /* بیسیک طور مثل فلکس باکس هستش یعنی باید به پرنت یه ایتم برای اعمال تغییر ایتم استفاده کنیم */
+    /* display: grid; */
+        /* حالا برای تنظیم چیدمان و شمارش ستون و ردیف مشخص میکنیم */
+    /* grid-template-columns: 0 0 0 ... ; */
+        /* در این بخش داریم ستون هارو تنظیم میکنیم و به ازای هر مقداری که میدهیم تعداد ستون هارو مشخص میکنیم */
+    /* grid-template-rows:  0 0 0 ...; */
+        /* این بخش هم برای ردیف هستش */
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+    /* --- /Gap\ --- */
+
+        /* دقیقا مثل فلکس باکس از پراپرتی گپ هم اینجا استفاده میشه ولی علاوه بر اون ما میتوینمبه هر کدوم از جهت ها به طور اختصاصی مقدار خودش را بدهیم */
+
+    /* --- /Justify\ --- */
+
+    /* --- /align\ --- */
+
+    /* --- /Fraction\ --- */
+
+        /* در این قسمت به جای اینکه بیاییم از سیستم عدد دهی استفاده کنیم توی تعداد ستون یا ردیف میتونیم از واحد فرکشن استفاده کنیم
+        اینکار به ما اجازه میده تا هم از کل ظرفیت کانتینر استفاده کنیم هم به نسبت هم اونها رو تقسیم کنیم */
+
+        /* خوبیش اینه که توی دیوایس های مختلف به اندازه اون دیوایس میتونه تغییر سایز بده */
+
+    /* --- /min-max content\ --- */
+
+        /* یکی از واحد هایی هست که میتونیم استفاده کنیم مین کانتنت کمترن ظرفیت رو میگیره ولی ماکس کانتنت فرق داره */
+
+    /* --- /MinMax\ --- */
+
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+
+        /* این مورد یکی از تابع هایی هست که سبب میشه تا برای یک ستون مشخص کنیم در طی تغییر سایز دادن کانتینرش تا چه حا بزرگ شود یا تا چه حد کوچیک شود برای همین دو مقدار دریافت میکند */
+
+    /* --- /Grid Starts End\ --- */
+
+        /* هر ستونی که تشکیل میشه بین بقیه ستون ها یا ردیف یک فاصله ایی ایجاد میشه که به ترتیب دایرکشن شماره بندی میشن حالا ما میتونیم کاری کنیم تا مثلا یک عنصر از چه لاینی شروع بشه و در چه لاینی تمام بشه */
+
+    /* grid-column-start: 1; */
+    /* grid-column-end: 2; */
+
+    /* grid-row-start: 1; */
+    /* grid-row-end: 2; */
+
+        /* Short Hand */
+    /* grid-column: 1 / 2; */
+    /* grid-row: 1 / 2; */
+    /* اولی استارت و دومی اند هستش */
+
+    /* حالا یه روشی هم هست که میتونیم استفاده کنیم برای بخش اند این هست از کلمه اسپن استفاده کنیم این کار باعث میشه تا ایتم مورد نظر به اندازه اندازه ایتم های دیگر طول یا عرض بگیرد*/
+
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+
+    /* --- /Grid Area\ --- */
+
+        /* به هر ایتم توی دیسپلی گرید نام میدیم ولی باید این موضوع رو هم مشخص کنیم حد و اندازه اش چه قدر است */
+
+    /* grid-template-areas: ""; */
+        /* با استفاده از این پراپرتی ما میتونیم کاری کنیم تا بر اساس تعداد ستون هایی که تنظیم کردیم چه ایتم هایی بر اساس اسمی که بهشون دادیم قرار بگیرند */
+
+        /* هر دابل کتیشن نشان دهندی ردیف هستند یعنی جفت کتیشن اول ردیف اول جفت کتیشن دوم ردیف دوم و الی اخر */
+
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+    /* --- /َAuto Fit & Auto Fill\ --- */
+
+        /* این دو مورد مقدار اولیه تابع ریپیت هستن اما فایدشون زمانی نمایان میشه که توی مقدار دوم از مین یا ماکس استفاده کنیم وقتی مین یا ماکس برای ایتم های قرار بدیم با تغییر سایز پیدا کردن عرض سایت این دو مقدار کمک میکنن تا عناصر از اورفلو پیدا نکنند  */
+
+    /* grid-template-columns: repeat(auto-fit); */
+    /* grid-template-columns: repeat(auto-fill); */
+
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+    /* --- /َGrid Template\ --- */
+
+        /* این مورد  برای تعیین ستون و ردیف استفاده میشه */
+    /* grid-template: auto auto auto / 1fr 2fr 3fr 1fr; */
+        /* مقدار اول برای ردیف و مقدار دوم برای ستون */
+
+
+
+
+
+
+
+                /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+                /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+}
+
+:root{
+    --color_C90000:#C90000;
+    --color_7D7C7C:#7D7C7C;
+    --color_504F4F:#504F4F;
+    --color_323232:#323232;
+    --color_FFC300:#FFC300;
+    --color_FFF6A3:#FFF6A3;
+    --color_E3E3E3:#E3E3E3;
+    --color_F1F1F1:#F1F1F1;
+}
+
+@font-face {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 900;
+    src: url('../Fonts/poppins-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: url('../Fonts/poppins-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 500;
+    src: url('../Fonts/poppins-medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 600;
+    src: url('../Fonts/poppins-medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 300;
+    src: url('../Fonts/poppins-light-webfont.woff') format('woff');
+}
+
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0 solid black;
+    text-decoration: none;
+}
+
+body{
+    font-family: "poppins";
+}
+
+header{
+    padding: 2rem 0;
+}
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+        /* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+            
+            /*  --- header ---  */
+
+    /* - top_side - */
+    
+
+.top_side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 85rem;
+}
+
+.top__link{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+}
+
+.brand__icon{
+    background-color: var(--color_C90000);
+    border-bottom-left-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.header__link{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.header__link > a{
+    color: var(--color_7D7C7C);
+    transition-duration: 80ms;
+}
+
+.header__link > a:hover{
+    color: #C90000;
+}
+
+.top__button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn__header{
+    cursor: pointer;
+}
+
+.signup , .login{
+    height: 2.5rem;
+    width: 5rem;
+    border: 1px solid var(--color_C90000);
+    line-height: 2.5rem;
+    text-align: center;
+    border-radius: 2rem;
+    font-family: poppinsregular;
+    transition-duration: 80ms;
+}
+
+.login{
+    background-color: var(--color_C90000);
+    color: var(--color_F1F1F1);
+}
+
+.login:hover{
+    color: var(--color_C90000);
+    background-color: white;
+    border: 1px solid #C90000;
+}
+
+.signup{
+    color: var(--color_C90000);
+}
+.signup:hover{
+    background-color: var(--color_C90000);
+    color: white;
+}
+
+    /* - bottom_side - */
+
+.bottom_side{
+    display: flex;
+    align-items: center;
+    max-width: 85rem;
+    margin:  0 auto;
+}
+
+.order__side{
+    flex-basis: 30%;
+    padding: 8rem 0;
+}
+
+.header__titel{
+    padding: 4.5rem 0;
+}
+
+.header__titel > h1{
+    margin: 0;
+    color: var(--color_C90000);
+    text-shadow: 2px 2px 6px var(--color_7D7C7C);
+    font-size: 50px;
+    line-height: 5rem;
+    font-family: 'poppinsmedium';
+}
+
+.header__titel> p{
+    color: var(--color_504F4F);
+    text-shadow: 0 4px 10px var(--color_7D7C7C);
+    line-height: 1.6rem;
+    padding: 1rem 0;
+}
+
+.order__process{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    padding: 1.5rem 0;
+    cursor: pointer;
+}
+
+.order__process > p{
+    color: var(--color_504F4F);
+    font-family: 'poppinslight';
+    font-size: 20px;
+}
+
+.order__process > span{
+    color: #323232;
+    font-size: 26px;
+    font-family: 'poppinsmedium';
+}
+
+.order_button{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    cursor: pointer;
+}
+
+.number__order{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 2rem;
+    box-shadow: 0 0px 20px 6px var(--color_E3E3E3);
+}
+
+.order{
+    height: 3.6rem;
+    width: 12rem;
+    border-radius: 2rem;
+    color: var(--color_323232);
+    background-color: var(--color_FFC300);
+    box-shadow: 0 15px 20px 6px var(--color_E3E3E3);
+    line-height: 3.6rem;
+    text-align: center;
+    font-size: 20px;
+    transition-duration: 80ms;
+
+}
+
+.order:hover{
+    transform: scale(1.08);
+}
+
+.header__image{
+    flex-basis: 60%;
+}
+
+
+        /*  --- Main ---  */
+
+/* menu__container */
+
+.menu__container{
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+    position: relative;
+}
+
+.menu__titel{
+    color: #C90000;
+    font-size: 38px;
+}
+
+.menu__titel::before{
+    content: "";
+    position: absolute;
+    top: 74px;
+    width: 114px;
+    height: 10px;
+    background-color: var(--color_FFF6A3);
+    z-index: -1;
+}
+
+.menu__button{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.button1{
+
+}
+
+.button2{
+
+}
+
+.button3{
+
+}
+
+.button4{
+
+}
+
+.button5{
+
+}
+
+.btn_menu{
+    margin-top: 1rem;
+    color: #504F4F;
+    background-color: var(--color_E3E3E3);
+    padding: 1rem 1.2rem;
+    text-align: center;
+    border-radius: 5rem;
+    border: 1px solid var(--color_7D7C7C);
+    cursor: pointer;
+    transition-duration: 200ms;
+    font-family: 'poppinsregular';
+}
+.btn_menu:hover{
+    font-family: 'poppinsmedium';
+    background-color: #FFF6A3;
+    border: var(--color_FFC300);
+    color: var(--color_323232);
+    scale: 1.05;
+}
+
+.btn_menu:active{
+    background-color: #FFC300;
+    border: #FFC300;
+    scale: 1.1;
+}
+
+.food__menu{
+    padding: 2rem 0;
+}
+
+.list__item{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 25rem 25rem;
+    gap: 3rem;
+}
+
+.food__item{
+    list-style: none;
+    border-radius: 14px;
+    border: 1px solid var(--color_E3E3E3);
+    background-color: #F1F1F1;
+}
+
+.more__text{
+    text-align: center;
+}
+
+.more__list{
+    cursor: pointer;
+    padding: 1rem;
+    display: inline-block;
+    font-size: 22px;
+    color: var(--color_7D7C7C);
+}
+
+.more__list::before{
+    content: "";
+    position: absolute;
+    bottom: 66px;
+    height: 3px;
+    width: 75px;
+    background-color: var(--color_7D7C7C);
+}
+
+
+/* - saleoff__container - */
+
+.saleoff__container{
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 5rem 0;
+    position: relative;
+    text-align: center;
+}
+
+.saleoff__titel{
+    color: var(--color_C90000);
+    font-size: 38px;
+}
+.saleoff__titel::before{
+    content: "";
+    position: absolute;
+    top: 102px;
+    width: 175px;
+    height: 14px;
+    background-color: var(--color_FFF6A3);
+    z-index: -1;
+}
+
+.offer__food{
+    padding: 3rem 0;
+}
+
+.offer__list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 26rem;
+    column-gap: 3rem;
+}
+
+.offer__item {
+    list-style: none;
+    border-radius: 10px;
+    border: 1px solid var(--color_E3E3E3);
+    background-color: var(--color_F1F1F1);
+    transition-duration: 200ms;
+}
+
+.offer__item:hover{
+    background-color: var(--color_C90000);
+    scale: 1.08;
+}
+
+.off1{
+
+}
+
+.off2{
+
+}
+
+.off3{
+
+}
+
+/* - app__container - */
+
+.app__container{
+    max-width: 119rem;
+    margin: 0 auto;
+    padding: 6rem 0 3rem 0;
+}
+
+.mobile__app{
+    height: 28rem;
+    width: 86%;
+    border-top-right-radius: 70rem;
+    border-bottom-right-radius: 70rem;
+    background-color: var(--color_F1F1F1);
+    border: 1px solid var(--color_E3E3E3);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 3rem;
+}
+
+.mobile_img{
+    flex-basis: 52%;
+}
+
+.app__rule{
+    flex-basis: 48%;
+    padding: 4rem 0;
+}
+
+.app__rule>span{
+    color: var(--color_7D7C7C);
+    font-size: 26px;
+}
+
+.app__rule>h2{
+    color: var(--color_C90000);
+    font-size: 52px;
+    font-family: 'poppinsregular';
+    padding: 1rem 0;
+}
+
+.app__rule>p{
+    padding: 1rem 0;
+    color: var(--color_323232);
+    font-size: 20px;
+    font-family: 'poppinsregular';
+}
+
+.app__link{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    padding: 1rem 0;
+}
+
+.appstore , .googleplay{
+    background-color: var(--color_504F4F);
+    padding: 1rem;
+    border-radius: 4rem;
+}
+
+.apple_icon{
+
+}
+
+.appstore{
+
+}
+
+.googleplay{
+}
+
+.android_icon{
+
+}
+
+.src_icon{
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.text>span{
+    color: white;
+    font-family: 'poppinsregular';
+}
+
+
+/* - branch__container - */
+
+.branch__container{
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.branch__location{
+    padding: 10rem;
+    background-image: linear-gradient(to right , var(--color_504F4F) , var(--color_323232));
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.branch__location>h2,.branch__location>p{
+    color: white;
+}
+.branch__location>h2{
+    font-family: 'poppinsregular';
+    font-size: 52px;
+    padding-bottom: .8rem;
+}
+
+.branch__location>p{
+    font-family: 'poppinslight';
+    font-size: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 34rem;
+    margin-top: 2rem;
+    padding: 2rem .6rem 2rem .8rem;
+    background-color: var(--color_FFC300);
+    border-radius: 32px;
+}
+
+#text_input{
+    font-size: 18px;
+    background-color: var(--color_FFC300);
+    color: #504F4F;
+}
+#text_input::placeholder{
+    font-family: 'poppinslight';
+    color: var(--color_504F4F);
+}
+
+.form>button{
+    padding: 1rem;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+
+/*  --- Footer ---  */
+
+footer{
+    background-color: var(--color_FFF6A3);
+    min-height: 20rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.footer_content{
+    padding: 2rem;
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
+.footer_column{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem;
+}
+
+.item__column{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.item__column>h3{
+    font-size: 24px;
+    font-family: 'poppinsregular';
+    color: var(--color_323232);
+    padding-bottom: 2rem;
+    
+}
+
+.brand{
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.brand_logo{
+    height: 5rem;
+    width: 5rem;
+    background-color: #C90000;
+}
+
+.brand_name{
+    font-size: 42px;
+    font-family: 'poppinssemibold';
+    color: #323232;
+}
+
+.socialmedia__icon{
+
+}
+
+.link__column{
+}
+
+.column1{
+
+}
+
+.column2 >p{
+    color: #504F4F;
+    padding: .8rem 0;   
+}
+
+.column3 > a{
+    color: #504F4F;
+    padding: .8rem 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
